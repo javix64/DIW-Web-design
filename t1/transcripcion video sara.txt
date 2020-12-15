@@ -1,0 +1,214 @@
+Hola, soy Carl Seaver y soy Kolchakwe, ingenieros de UX que crean prototipos de nuevas experiencias de búsqueda para Google. En las secciones anteriores de esta serie, has aprendido cómo los prototipos en papel, los dibujos y las herramientas de prototipado digital pueden ayudarte a explorar tus ideas y a tomar la dirección de tu equipo de diseño en los prototipos principales. o historias sobre el futuro que nos ayudaron a crear un sentido común de nuestro estado actual, nuestra visión del futuro y el camino que tomaremos para llegar allí. 
+
+En esta sección hablaremos sobre el prototipo nativo y cuando decimos prototipo nativo nos referimos a ensuciarse las manos y escribir algún código que pueda significar escribir Android. con Java construyendo aplicaciones iOS con Swift o escribiendo HTML CSS y JavaScript para el navegador tanto como sea posible esto se hace usando dispositivos reales datos reales y usuarios reales nuestro objetivo para este video es mostrarte cómo puedes aprovechar la tecnología para dar vida a tus ideas esto te permitirá empezar a probar en escenarios del mundo real y empezar a presentar sus ideas a los usuarios y partes interesadas ahora vamos a mirar en cada una de estas áreas con más detalle y le mostraremos cómo se unirán para convertir su idea en un producto real
+
+¿Sabe qué es lo mejor de ser un prototipo es juguetes montones y montones de juguetes cuando haces un prototipo nativamente empezarás a construir y probar tus ideas de diseño en dispositivos reales piensa en esto como una extensión de tu proceso de diseño toda esta tecnología se convierte en tu nuevo lienzo y el código que escribes se convierte en tu nuevo pincel todos sabemos que construir y la experiencia para nuestros teléfonos es importante pero como la experiencia de su producto si auser interactuó con él un reloj en el hogar en la TV o en un mundo virtual-pensar en cómo su producto es realmente la experiencia en el mundo real es uno de los objetivos principales de dataprototipo así que ¿cómo empezar bien-como usted puede haber adivinado este tipo de prototipo requiere fuerte dependiendo de la plataforma que uses, esto podría significar escribir código en Java Swift C++ Python JavaScript o en cualquier otro lenguaje de programación.
+
+También tendrás que dominar el ecosistema y los SDKs de cualquier plataforma en la que estés construyendo, ya sea en el sistema operativo Androidi o en un navegador web. plataformas de hardware como la de arduino hoy en día nuestros dispositivos están cargados con tecnología, microscopios, acelerómetros, altavoces, cámaras, micrófonos, en el GPS son parte importante de la tecnología que ayuda a dar forma a la experiencia que el usuario tiene con el producto y todos ellos son muy difíciles de prototipar
+
+herramientas de diseño tradicional como Photoshop o esbozar o incluso algunas de las herramientas de prototipado digital que vio antes a veces la mejor manera de prototipar una experiencia es escribiendo el código, pero cuando usted prototipo tiene una intención muy diferente lo llamamos la mentalidad de los hackers que usted estará explorando tomar un montón de riesgos y probablemente un montón de atajos en tu código y eso está bien, también debo mencionar que como llevas a cabo estas exploraciones, este es un gran momento para probar bibliotecas específicas y marcos y evaluaciones, si se ajustan bien a tu producto, recuerda que el prototipo está destinado a ser de bajo compromiso, siéntete libre de desechar el código cuando lo necesites y de verdad. Aproveche esta oportunidad de explorar y aprender en la siguiente sección. 
+
+Carl le mostrará cómo puede aliar sus exploraciones de prototipos y comenzar a validarlas con usuarios reales ahora que tiene una base sólida sobre las tecnologías que utiliza para su aplicación. 
+
+uno de los principales beneficios de la creación de prototipos nativos es que tendrás una experiencia realista que puedes poner en manos de tus usuarios para recoger valiosos comentarios, porque una buena experiencia de usuario es mucho más que el aspecto y la sensación de tu aplicación. 
+
+y comprender cómo reaccionarán los usuarios a la animación de la maqueta y a las entradas, características de la experiencia para buscar la validación al 
+
+principio del ciclo de vida del producto le ayudará a identificar las características que más resuenan con sus usuarios y a centrar sus esfuerzos de diseño y desarrollo en esa dirección. integrar el sencillo proceso de diseño prueba y validación del prototipo en su flujo de trabajo le dará la oportunidad de crear momentos más deliciosos en su aplicación y de llegar al punto óptimo con su público cuando busque comentarios de sus usuarios sea directo con la pregunta que espera responder utilizando el prototipopregunta para acciones específicas en los elementos importantes de tu viaje principal, te sorprenderá saber que las características que son importantes para ti pueden no ser tan importantes para tus usuarios. es más efectiva para guiar a su producto, dirección y equipo, porque tiene los datos para apoyar sus decisiones, ha explorado con la tecnología y ha puesto su producto frente a usuarios reales para obtener la validación. Está listo para una de las partes más importantes del prototipo.
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+hi I'm Carl Seaver and I'm Kolchak
+we are UX engineers that prototype new
+search experiences for Google in
+previous sections of this series you
+learned about how paper prototyping
+sketching and digital prototyping tools
+can help you explore your ideas and set
+a direction for your design team at the
+core prototypes or stories about the
+future they helped us create a shared
+sense of our current state our future
+vision and the path we'll take to get
+there
+in this section we'll be talking about
+native prototyping and when we say
+native prototyping we mean getting your
+hands dirty and writing some code this
+can mean writing Android applications
+with Java constructing iOS apps with
+Swift or writing HTML CSS and JavaScript
+for the browser as much as possible this
+is done using real devices real data and
+real users our goal for this video is to
+show you how you can leverage technology
+to really bring your ideas to life this
+will let you start testing in real world
+scenarios and start pitching your ideas
+to users and stakeholders now we'll look
+into each of these areas in more detail
+and show you how they'll come together
+to turn your idea into an actual product
+do you know what the best thing about
+being a prototyper is toys lots and lots
+of toys when you prototype natively
+you'll start building and testing your
+design ideas on real devices think of
+this as an extension of your design
+process all of this technology becomes
+your new canvas and the code you write
+becomes your new paintbrush we all know
+that building and experience for our
+phones is important but how would the
+experience of your product change if a
+user interacted with it a watch in the
+home on the TV or in a virtual world
+thinking about how your product is
+actually experience in the real world is
+one of the primary goals of data
+prototype so how do you get started well
+as you may have guessed this type of
+prototyping requires strong technical
+proficiency depending on which platform
+you use this could mean writing code in
+Java Swift C++ Python JavaScript or any
+number of other programming languages
+you'll also need to be proficient in the
+ecosystem and SDKs of whatever platform
+you're building on whether that be
+Android
+i OS a web browser or even hardware
+platforms like they arduino nowadays our
+devices are loaded with technology
+gyroscopes accelerometers speakers
+cameras microphones in the GPS are all
+important part of the technology that
+helped shape the experience your user
+has with the product and they all are
+pretty hard to prototype traditional
+design tools like Photoshop or sketch or
+even some of the digital prototyping
+tools you saw earlier sometimes the best
+way to prototype an experience is by
+writing code but when you prototype you
+have a much different intent we call it
+the hackers mentality you will be
+exploring taking a lot of risks and
+probably a lot of shortcuts in your code
+and that's okay I should also mention as
+you conduct these explorations this is a
+really great time to try out specific
+libraries and frameworks and assess
+whether they are a good fit for your
+product remember prototyping is meant to
+be low commitment feel free to throw
+away code whenever you need to and
+really use this opportunity to explore
+experiment and learn in the next section
+Carl will show you how you can take all
+your prototype explorations and start
+validating them with real users now that
+you've got a solid baseline on the
+technologies you use for your app you
+need to consider how users will respond
+to your new features one of the main
+benefits of native prototyping is that
+you'll have a realistic experience that
+you can put in the hands of your users
+to collect valuable feedback because a
+good user experience is much more than
+just the look and feel of your
+application designing for your target
+market means making the investment and
+understanding how your users will react
+to the layout animation and input
+characteristics of the experience
+seeking validation early in the product
+lifecycle will help you identify the
+features that most resonate with your
+users and focus your design and
+development efforts in that direction
+integrating the simple process of design
+prototype test and validate into your
+workflow will afford you the opportunity
+to craft more delightful moments into
+your app and hit the sweet spot with
+your audience when seeking feedback from
+your users be direct with the questions
+you hope to answer using the prototype
+ask for specific actionable assessments
+on the important elements of your core
+journey you may be surprised to learn
+that the features that are important to
+you might not be as important to your
+users building on the technology choices
+you've made along the way you can gain a
+better
+understanding of how the whole
+experience will come together you'll be
+more effective in guiding your product
+direction and team because you have the
+data to support your decisions you've
+gone through rounds and rounds of
+iterations explored with technology and
+put your product in front of real users
+to get validation you're now ready for
+one of the most important parts of the
+prototyping process pitching your idea
+it's one thing to explain your vision to
+someone but what if you can hand it to
+them
+and let them feel and experience it all
+for themselves at Google we are often in
+the position of getting buy into a new
+product initiative or feature with our
+own stakeholders we use prototypes to
+tell the stories of our ideas you can
+start pitching at any point but when
+you've invested time into exploring and
+validating with prototyping you can tell
+a very compelling story because you're
+able to prove through the feedback and
+data that you've accumulated that your
+idea has a strong value proposition this
+is why we recommend investing and
+prototyping before getting locked
+heavily into the engineering phase use
+the process to build strong arguments on
+why your product will succeed and let
+the prototypes be the proof in this
+video we've taught you the value of
+native prototyping why you should
+explore with technology how to validate
+your products direction and effectively
+communicate your vision to stakeholders
+and users alike native prototyping can
+be used at any point in your product
+lifecycle whether it's a new product
+launch or an upgrade to an existing
+feature prototyping with real devices
+real data and real users will put your
+team on a fast track to success and help
+you identify the sweet spot in the
+marketplace for your app the key is to
+invest in the process and leverage
+prototyping is an integral part of your
+workflow this will help you build better
+products that your users will love thank
+you for taking the time to watch our
+prototyping series you've seen
+everything from paper to digital and
+Native prototypes and somewhere in that
+spectrum is the right method to tell the
+story of your idea
+I encourage you to experiment with all
+these tools see what feels right for
+your idea in your organization there's
+no silver bullet no magic process just
+ways to design prototype test and
+validate try build fail refine and
+repeat so you can hit the sweet spot
+with your audience thanks again
+Oh 

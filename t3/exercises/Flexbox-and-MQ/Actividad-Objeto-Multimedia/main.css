@@ -1,0 +1,7 @@
+div.media:first-of-type{
+    display:flex;
+}
+div.media:last-of-type{
+    display:flex;
+    flex-direction: row-reverse;
+}

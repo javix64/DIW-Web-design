@@ -1,0 +1,87 @@
+/*
+/////////////////////////////
+// COMUNES PARA TODOS      //
+/////////////////////////////
+*/
+header,footer{
+    background-color:peru;
+}
+nav,aside{
+    background-color: khaki;
+}
+header,footer,article,nav,aside{
+    padding-top:20px;
+    padding-left:20px;
+}
+
+
+
+/*
+/////////////////////////////
+//       SmartPhone        //
+/////////////////////////////
+*/
+header,nav,article,aside,footer{
+    height:10vh;
+    display:flex;
+    flex-direction: column;
+}
+main{
+    display:flex;
+    flex-direction: column;
+}
+article{
+    order:1;
+}
+aside{
+    order:2;
+}
+
+
+
+
+/*
+/////////////////////////////
+//          tablet         //
+/////////////////////////////
+*/
+@media (min-width:568px){
+    aside{
+        display: none;
+    }
+    main{
+        flex-direction: row;
+        width:100%;
+    }
+    article{
+        order:0;
+        width:70%;
+    }
+    nav{
+        width:30%;
+    }
+    article,nav,aside{
+        height:400px;
+    }
+}
+
+
+
+/*
+/////////////////////////////
+//      desktop            //
+/////////////////////////////
+*/
+@media (min-width:768px){
+    article{
+        order:1;
+        width:60%;
+    }
+    nav{
+        width:20%;
+    }
+    aside{
+        display:inline;
+        width:20%;
+    }
+}

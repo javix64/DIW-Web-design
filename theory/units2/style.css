@@ -1,0 +1,25 @@
+.hero {
+    height: 75vh;
+    background: linear-gradient(45deg, #DA4453, #89216B);
+  }
+ .sub-hero {
+    height: 25vh;
+    background: linear-gradient(115deg, #4e54c8, #8f94fb);
+  }
+ .hero, .sub-hero {
+   display: flex;
+   align-items: center;
+    justify-content: center;
+  
+  width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+  }
+  
+  .hero h2 {
+      font-size: 10vmin;
+  }
+  .sub-hero h2 {
+    font-size: 10vw;
+  }

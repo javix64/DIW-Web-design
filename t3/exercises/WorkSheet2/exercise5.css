@@ -1,0 +1,14 @@
+/* FONT AND COLORS*/
+h1{
+    text-align: center;
+    color:#ff0000;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+ul{
+    list-style-type: square;
+}

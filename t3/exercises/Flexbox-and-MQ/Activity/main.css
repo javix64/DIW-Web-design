@@ -1,0 +1,129 @@
+body{
+    background-color:#dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+    height:2vh;
+    width:100%;
+}
+
+nav{
+    background-color: #222222;
+    display:flex;
+}
+
+ul{
+    list-style-type: none;
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+li{
+    padding-top:15px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+li:hover{
+    background-color:#666666;
+}
+li:last-child{
+    border-top: 1px solid white;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid black;
+}
+div.promo_container{
+    display:flex;
+    flex-direction: column;
+}
+div.content{
+    margin-top:50px;
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-bottom: 1px solid black;
+}
+footer{
+    text-align: right;
+    padding-top:10px;
+}
+
+/*
+////////////////////////////////////
+////    TABLET AND DESKTOP      ////
+////////////////////////////////////
+*/
+@media all and (min-width:568px){
+    header{
+        height:140px;
+    }
+    nav{
+        background-color: #222222;
+        display:flex;
+    }
+    
+    ul{
+        list-style-type: none;
+        width: 90%;
+        display:flex;
+        flex-direction: row;
+        text-align:center;
+        justify-content:center;
+    }
+    li{
+        padding-right: 40px;
+        padding-left:40px;
+        padding-bottom:10px;
+    }
+    
+    li:hover{
+        background-color:#666666;
+    }
+
+    li:last-child{
+        border-top: none;
+    }
+    
+    article{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+        border-bottom: none;
+    }
+    div.promo_container{
+        display:flex;
+        flex-direction: row !important;
+
+        }
+    div.content{
+        width:60%;
+        
+        margin-top:100px;
+        text-align: left;
+        padding-left: none;
+        padding-right: none;
+        border-bottom: none;
+    }
+    footer{
+        text-align: right;
+        padding-top:60px;
+        padding-right: 60px;
+    }
+
+}

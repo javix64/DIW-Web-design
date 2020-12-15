@@ -1,0 +1,105 @@
+body{
+    background-color: #157474;
+}
+header.nav{
+    background-color: #298989;
+    position: sticky;
+    width: 100%;
+    top:0.2%;
+    border-radius:100px;
+    box-shadow: 4px 4px #003232;
+    padding-bottom: 0.002%;
+    padding-top:0.002%;
+}
+
+h1{
+    text-align: center;
+}
+@media (min-width: 700px){
+    a{
+        margin: 2%;
+        padding-left:5%;
+    }
+    .nav a{
+      display:inline-block;
+    }
+    nav{
+        background-color:white;
+        width:30%;
+        margin:auto;
+    }
+}
+article:first-child{
+    background-color: #45a6a6;
+}
+article:last-child{
+    background-color: #45a6a6;
+}
+
+a:hover{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color:black;
+        text-decoration: none;
+}
+img{
+    width:10%;
+    height:10%;
+    box-shadow:3px 3px;
+}
+table,thead.h3,td,tr{
+    color:#003232;
+    background-color:#298989;
+}
+h2::first-letter{
+    font-size: 2rem;
+    font-style: italic;
+}
+h2{
+    text-shadow: 2px 2px white;
+}
+div.name{
+    font-style: italic;
+    float: left;
+}
+div.curso{
+    float:right;
+}
+div.animacion {
+    width: 100px;
+    height: 20px;
+    background-color: #45a6a6;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 10s;
+  }
+  
+  @keyframes animation {
+    0%   { left:0%;}
+    25%  {left:90%;}
+    50%  {left:0%;}
+    75%  {left:90%;}
+    100%  {left:0%;}
+  }
+/*
+Example:
+Main header formed by:
+✔️1.Project title, centered
+✔️2.Horizontal menu for medium or large views.
+✔️3.The menu will be pinned to the top of the view so that it will always be visible.
+
+✔️Different background or image color for each recipe
+✔️Highlights the top options menu with transformations, transitions, or both
+✔️Add styles to the image
+✔️The ingredient list will be a table. 
+✔️Add styles to the table
+✔️Use pseudoelements to decorate the recipe names.
+✔️The horizontal menu will be inside a heading tag. 
+✔️The header tag will have rounded corners and shadows.
+✔️Add shadows to recipe titles
+✔️Make an animation for your website: a ball appears bouncing off the side, a spinning cube, or whatever else you can imagine.
+✔️Add a footer to your website where your name, group will appear in the left margin. 
+✔️Course and module name will appear in the right margin.
+Use flexbox, at least, to layout the header and footer.
+✔️The HTML code will be semantic
+*/

@@ -1,0 +1,16 @@
+body{
+    background-color: #cccccc;
+
+}
+article > p:first-of-type {
+    column-count: 3;
+    column-width: 7em;
+    font-size: 16px;
+}
+.tcol{
+    column-count: 3 ;
+    column-width: 3em;
+    column-rule-style: dotted;
+    column-rule-width: 5px;
+    column-rule-color: red;
+}
