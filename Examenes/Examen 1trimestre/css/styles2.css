@@ -1,0 +1,108 @@
+/* pongo fuente de google*/
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+/*estilos generales*/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+.container{
+    width:80%;
+    margin:2rem auto;
+}
+.container p{
+    margin:1rem 0;
+}
+/* pongo width y height*/
+.hero{
+    width:100vw;
+    height:100vh;
+    background-image: url("../images/greysky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.main-header .nav-links .nav-link a{
+    margin:.2rem;
+    padding:1rem .5rem;
+
+}
+.logo,.nav-links{
+    background-color: grey;
+}
+/*pongo hover transparente blanco*/
+.nav-link:hover{
+    background-color:rgba(255,255,255,0.2);
+}
+/*pongo position */
+.main-header{
+    position:fixed;
+    border-bottom: 0px;
+    width: 100vw;
+    height:50vh;
+    /*
+    quito padding para que se vea entero en mobile.
+    padding: 0 10vw;*/
+    color:black;
+    font-weight: bold;
+    
+    
+   
+}
+.main-header .logo{
+    align-self: center;
+    text-align: center;
+}
+.main-header a{
+    text-decoration: none;
+    color:inherit;
+    text-transform: uppercase;
+}
+.main-header .nav-links{
+
+    border-bottom:0;
+    list-style-type: none;
+}
+.main-header .nav-links .nav-link{
+    text-align: center;
+}
+.main-header .nav-links .nav-link a{
+    
+    border-bottom: 0;
+}
+
+
+/* media */
+@media (min-width:768px){
+    .main-header{
+        display:flex;
+        flex-direction: row;
+        width:100vw;
+        justify-content: space-around;
+        border-bottom: 0px;
+        width: 100vw;
+        height:10vh;
+        /*
+        quito padding para que se vea entero en mobile.
+        padding: 0 10vw;*/
+        color:black;
+        font-weight: bold;
+        background-color:none;
+    }
+    
+    .logo{
+        width:100px;
+    }
+    .nav-links{
+        padding-top:20px;
+        display:flex;
+        flex-direction: row;
+    }
+    .logo, .nav-links{
+        background-color: inherit;
+    }
+}

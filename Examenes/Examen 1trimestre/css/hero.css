@@ -1,0 +1,61 @@
+
+/*pongo fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+.container{
+    width:80%;
+    margin:2rem auto;
+}
+.container p{
+    margin:1rem 0;
+}
+.hero{
+    
+    color:#fff;
+    /*pongo height imagen de fondo y propiedades flexbox*/
+    height:100vh;
+    width:100vw;
+    background-image: url("../images/greysky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+
+}
+.hero h1{
+    position:relative;
+    font-size:4rem;
+    text-transform:uppercase;
+    background:rgba(0,0,0,0.2);
+    /* pongo relleno-padding, bordes*/
+    padding:32px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+}
+.hero h1::before, .hero h1::after{
+    content: '';
+    position:absolute;
+    top:0;
+    height:100%;
+    width:50%;
+    
+}
+/* pongo estilos de bordes*/
+.hero h1::before{
+    border-bottom:6px solid black;
+    left:0px;
+}
+.hero h1::after{
+    border-top:6px solid black;
+    right:0px;
+}
